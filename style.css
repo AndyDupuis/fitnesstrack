@@ -1,71 +1,58 @@
 ﻿
-#logo {
-	width: 150px; 
-	height: 100px;
-	position: absolute; 
-	top: 15px;
-	left: 15px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
-	background-color: green;
-}
-
-.topRightCallToAction {
-	width: 150px; 
-	padding: 15px;
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
-}
-
-.signinForm {
-	width: 300px;
-	padding: 15px;
-	position: relative; 
-	top: 110px;
-	bottom: 300px;
-	margin: auto;
-	
+.jumbotron {
+	background-size: cover;
+	background-repeat: no-repeat;
 	
 }
 
-#login {
-	padding-bottom: 120px;
+
+#mainJumbotron {
+				background-image: url('background2.jpg');
+				height: 100vh;
+				padding-top: 25%;
+				color: white;
+				font-family: 'Oswald', sans-serif;
+				margin-bottom: 0;
+			}
+
+#mainJumbotron h1 {
+	color: #32D9CB;
 }
 
-.scrollForMoreInfo {
-	position: relative;
-	top: 100px;
-	width: 700px;
-	text-align: center;
-	margin: auto;
-}
-
-.scrollForMoreInfo p {
-	display: inline-block;
-}
-
-
-.moreInfo {
-	position: relative;
-	padding: 15px;
-	top: 150px;
-	width: 600px;
-	margin: auto;
+#mainJumbotron .btn {
+	background-color: #32D9CB;
+	border: none;
+	color: #205072;
+	font-weight: bold;
 
 }
 
-.moreInfo video {
-	position: absolute;
-	top: 25px;
-	right: 0px;
-	width: 250px;
-	height: 150px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
+#moreInfo {
+	margin: 50px;
+	font-family: 'Oswald', sans-serif;
+		padding: 50px;
 }
+
+#moreInfo h5 {
+	color: #32D9CB;
+}
+
+#moreInfo p {
+	color: #205072;
+}
+
+.card {
+	box-shadow: 5px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
