@@ -121,7 +121,19 @@
 }
 
 
+.header {
+	margin: 10% 5% 0% 5%;
+}
 
+.row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contactUsForm {
+	margin-bottom: 10%;
+	margin-left: 5%;
+}
 
 
 
