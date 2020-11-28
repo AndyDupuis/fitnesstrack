@@ -1,125 +1,26 @@
-﻿
-#contactButton {
-	position: absolute;
-	right: 7px;
-	top: 7px;;
-	border-style: solid;
-	border-width: 2px;
-	border-color: white;
-	padding: 10px;
-	}
-
-#contactButton a {
-	color: white;
-	text-decoration: none;
+﻿html {
+	height: 100%;
 }
+
+body {
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+/* reusable elements */
 
 .jumbotron {
 	background-size: cover;
 	background-repeat: no-repeat;
-	
-}
-
-
-#mainJumbotron {	
-	background-image: url('background2.jpg');		
-	height: 100vh;
-	padding-top: 25%;
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	margin-bottom: 0;
-			}
-
-#mainJumbotron h1 {
-	color: white;
-}
-
-#mainJumbotron .btn {
-	background-color: #32D9CB;
-	border: none;
-	color: #205072;
-	font-weight: bold;
-
-}
-
-#moreInfo {
-	margin: 50px;
-	font-family: 'Oswald', sans-serif;
-	padding: 50px;
-}
-
-#moreInfo h5 {
-	color: #32D9CB;
-}
-
-#moreInfo p {
-	color: #205072;
 }
 
 .card {
 	box-shadow: 5px 10px 10px;
 }
-
-#loginOrSignup {
-	background-image: linear-gradient(to bottom right, #131F30, #32D9CB);
-	height: 700px;
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	padding: 20px;
-}
-
-#loginOrSignup .btn {
-	background-color: #32D9CB;
-	border: none;
-	color: #205072;
-	font-weight: bold;
-}
-
-#login {
-	padding: 15px;
-	margin: 7%;
-	float: left;
-	width: 30%;
-	border-radius: 10%;
-	background-color: #131F30;
-}
-
-#signup {
-	padding: 15px;
-	margin: 7%;
-	float: right;
-	width: 35%;
-	border-radius: 10%;
-	background-color: #131F30;
-}
-
-#login div {
-	margin: auto;
-	text-align: center;
-	padding: 5px;
-	width: 20%;
-	border-radius: 10%;
-}
-
-#login form {
-	margin-top: 10%;
-	margin-bottom: 10%;
-	margin-left: 20%;
-}
-
-#signup div {
-	margin: auto;
-	text-align: center;
-	padding: 5px;
-	width: 20%;
-}
-
-#signup form {
-	margin-top: 10%;
-	margin-bottom: 10%;
-	margin-left: 20%;
-}
-
 
 .header {
 	margin: 10% 5% 0% 5%;
@@ -130,10 +31,91 @@
 	margin-bottom: 20px;
 }
 
-.contactUsForm {
-	margin-bottom: 10%;
-	margin-left: 5%;
+
+/* custom css */
+
+#contactButton {
+	position: absolute;
+	right: 10px;
+	top: 10px;;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	padding: 10px;
+	font-size: 120%;
+	}
+
+#contactButton a {
+	color: white;
+	text-decoration: none;
+}
+
+#mainJumbotron {	
+	background-image: url('background2.jpg');		
+	height: 100vh;
+	padding-top: 25%;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 0;
+}
+
+#mainJumbotron h1 {
+	color: white;
+}
+
+#mainJumbotron .btn {
+	background-color: #32D9CB;
+	border: none;
+	color: #205072;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+#transparent_background {
+	background-color: #205072;
+	padding: 20px;
+	opacity: 80%;
+	width: 50%;
+}
+
+#moreInfo {
+	margin: 50px;
+	font-family: 'Oswald', sans-serif;
+	padding: 50px;
 }
 
 
 
+
+/* contact us page */
+
+#contact {
+	margin: 50px;
+}
+
+
+/* sign up and login forms */
+
+
+#signup {
+	width: 900px;
+	height: 425px;
+	background-color: lightgray;
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+}
+
+#signupImage {
+	float: left;
+
+}
+
+#signupForm {
+	float: right;
+}
