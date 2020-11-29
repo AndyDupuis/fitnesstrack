@@ -1,4 +1,5 @@
-﻿html {
+﻿
+html {
 	height: 100%;
 }
 
@@ -97,7 +98,7 @@ body {
 /* sign up and login forms */
 
 
-#signup {
+.form_section {
 	width: 900px;
 	height: 425px;
 	background-color: lightgray;
@@ -111,11 +112,11 @@ body {
 	margin: auto;
 }
 
-#signupImage {
+.form_image {
 	float: left;
 
 }
 
-#signupForm {
+.form_content {
 	float: right;
 }
