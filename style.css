@@ -8,6 +8,7 @@ body {
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 
@@ -47,8 +48,13 @@ body {
 	}
 
 #contactButton a {
+	font-family: 'Oswald', sans-serif;
 	color: white;
 	text-decoration: none;
+}
+
+#contactButton a:hover {
+	color: #32D9CB;
 }
 
 #mainJumbotron {	
@@ -72,10 +78,15 @@ body {
 	margin-top: 3px;
 }
 
-#transparent_background {
+#mainJumbotron a:hover {
 	background-color: #205072;
+	color: #32D9CB;
+	border: 2px #32D9CB;
+}
+
+#transparent_background {
+	background-color: rgba(0, 0, 0, 0.5);
 	padding: 20px;
-	opacity: 80%;
 	width: 50%;
 }
 
@@ -90,9 +101,19 @@ body {
 
 /* contact us page */
 
-#contact {
-	margin: 50px;
+#contact_background {
+	background-color: rgba(211,211,211, 0.8);
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	float: left;
+	margin-top: 20%;
+	margin-left: 5%;
+	border-radius: 25px;
+	padding: 20px;
 }
+
+
 
 
 /* sign up and login forms */
@@ -118,5 +139,24 @@ body {
 }
 
 .form_content {
-	float: right;
+	padding: 20px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+}
+
+.form_content .btn {
+	background-color: #32D9CB;
+	border: none;
+	color: #205072;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.form_content a:hover {
+	background-color: #205072;
+	color: #32D9CB;
+}
+
+#login_form {
+	margin-top: 50px;
 }

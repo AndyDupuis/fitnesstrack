@@ -8,46 +8,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url('contact.jpg')">
 
-<div id = "contactUs">
-	
-	<div class="header">				
-		<h2 >Contact Us</h2>
-		<p>Have any questions about our content, have a comment, or want to share any recipes of your own? Feel free to drop us a line. We'd love to hear from you!</p>
-	</div>
+<div id="contact_background">
 
-	<div id="contact">
-	<form>
-		 <div class="form-group">
-			<label for="exampleFormControlInput1">Email address</label>
-			<input type="email" class="form-control" id="email" placeholder="name@example.com">
-		</div>
-		<div class="row">
-			<div id = "enterValueSection" class="col">
-				<label>First Name</label>
-				<p><input type = "text" class="form-control" id = "firstName" placeholder=""></p>
-			</div>
-			<div id = "enterValueSection" class="col">
-				<label>Last Name</label>
-				<p><input type = "text" class="form-control" id = "lastName" placeholder=""></p>
-			</div>
-		</div>
-		<div class="form-group">
-			<label>Subject</label>
-			<input type="text" class="form-control" id="subject"></input>
-		</div>
-		<div class="form-group">
-			<label>Message</label>
-			<textarea class="form-control" id="message" rows="3"></textarea>
-		</div>
-		
-	
-		<button type="button" id = "contactUsSendButton" class="btn btn-info">Send</button>
 
-		</form>
+		<div class = "form_content">
 
-	</div>
+			<h4>Get in touch!</h4>
+
+			<p>Contact us with any questions or comments.</p>
+			
+			<div>
+			<form>
+
+					<label for="name">Name</label><br>
+					<input type="name"><br>
+
+					<label for="email">Email</label><br>
+					<input type="email"><br>
+
+					<label for="text">Subject</label><br>
+					<input type="text"><br>
+
+					<label for="text">Message</label><br>
+					<input type="text"><br>
+
+				<a class="btn btn-primary btn-lg" id="contact_button" href=# role="button">Submit</a>
+			
+			</form>
+
+		</div>
+
+
+</div>
+
+
+
 
 </body>
 </html>
